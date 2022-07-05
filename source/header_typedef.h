@@ -1,0 +1,4 @@
+#ifndef HEADER_TYPEDEF_H
+#define HEADER_TYPEDEF_H
+
+#endif // HEADER_TYPEDEF_H
