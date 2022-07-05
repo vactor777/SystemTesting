@@ -11,7 +11,6 @@
 #include "changeuser.h"
 #include "base_for_program.h"
 
-
 using namespace std;
 int main(){
 
@@ -57,7 +56,7 @@ int main(){
     p2->addCorreactAnswer("viktor", 0);
 
     cout << p2->getAlltest();
-    /*
+
     ICreateUsers* creater = new CreateAdmin();
    // delete creater;
     //creater = new CreateUser();
