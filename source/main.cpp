@@ -10,6 +10,15 @@
 #include "createusers.h"
 #include "changeuser.h"
 #include "base_for_program.h"
+class Myckass{
+
+public:
+    static int a;
+    static void ff(){
+        std::cout <<a;
+    }
+};
+int Myckass::a = 10;
 
 using namespace std;
 int main(){
@@ -101,7 +110,7 @@ int main(){
     delete p2;
     //p->
    */
-
+/*
     shared_ptr<BaseStatistic> p(new BaseStatistic());
     p->setStatistic("vik", "algebra", 10);
     p->setStatistic("vik", "algebrafor9", 7);
@@ -120,6 +129,9 @@ int main(){
         cout << "Test name: " << v[i]->_testName
              << " grade: " << v[i]->grade << endl;
     }
+*/
+    Myckass::ff();
+    int a=1;
 
     return 0;
 }
